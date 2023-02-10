@@ -34,6 +34,7 @@ int main()
     int hex_num = 0x346aB3;
     std::cout << "insert hex-decimal number: " << hex_num << "\thex: " << std::hex << hex_num <<"\n\n";
 
+    std::cout << std::dec; // lets set print output as decimal number
     std::cout << "==========================================================================\n\n";
     // scientific symbol e, E
     int scientific_int = 2.4E4; // 2.4e4
